@@ -39,6 +39,14 @@ button.btn {
     text-decoration: none;
 }
 
+button.btn-primary {
+    color: white;
+}
+
+button.btn-primary:hover {
+    background-color: #01395e;
+}
+
 a.nav_menu {
     color: #d5d5d5;
 }
@@ -52,7 +60,7 @@ a.nav_menu:hover {
     margin: auto;
 }
 
-.container{
+.container {
     background: #d5d5d5;
     padding-bottom: 10px;
 }
