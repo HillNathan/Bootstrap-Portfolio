@@ -9,6 +9,8 @@ body {
     background-image: url("../images/new_year_background.png");
     /* Background image sourced from https://subtlepatterns.com/ */
     background-color: gray;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font from Google Fonts */
     margin-bottom: 70px; 
 }
 
@@ -23,7 +25,8 @@ header{
     display: inline;
     background-color: #01395e;
     color: #d5d5d5;
-    font-family: 'Cinzel', serif;
+    font-family: 'Raleway', sans-serif;
+    /* Font from Google Fonts */
     font-size: 36pt;
     padding: 10px;
 }
@@ -31,6 +34,10 @@ header{
 .btn-group{
     float: right;
     padding: 20px;
+}
+
+h2, h4 {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 button.btn {
