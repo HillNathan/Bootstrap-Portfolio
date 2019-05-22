@@ -37,7 +37,8 @@ header{
 }
 
 h2, h4 {
-    font-family: 'Titillium Web', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
 }
 
 button.btn {
@@ -84,19 +85,6 @@ footer {
     margin:0;
     border-top: solid 3px #01395e;
 }
-
-.portfolio {
-    width:80%;
-}
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 850px) {
     header {
