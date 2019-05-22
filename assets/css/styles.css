@@ -12,9 +12,10 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     /* font from Google Fonts */
     margin-bottom: 70px; 
+    /* Bottom margin to accomodate sticky footer    */
 }
 
-header{
+.header-bar{
     background-color: #00999e;
     width: 100%; 
     padding-bottom: 5px;
@@ -31,39 +32,27 @@ header{
     padding: 10px;
 }
 
-.btn-group{
+.my_nav {
     float: right;
-    padding: 20px;
 }
 
 h2, h4 {
 font-family: 'Titillium Web', sans-serif;
 }
 
-button.btn {
+.nav-button {
     background-color: #747474;
-    color: #00999e;
+    color: #cccccc;
     text-decoration: none;
+    border: none;
 }
 
-button.btn-primary {
-    color: white;
-}
-
-button.btn-primary:hover {
+.nav-button:hover {
     background-color: #01395e;
-}
-
-a.nav_menu {
-    color: #d5d5d5;
-}
-
-a.nav_menu:hover {
-    text-decoration: none;
-}
+}   
 
 .header-container{
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 
@@ -83,14 +72,4 @@ footer {
     text-align: center;
     margin:0;
     border-top: solid 3px #01395e;
-}
-
-@media screen and (max-width: 850px) {
-    header {
-        height: 150px;
-    }
-
-    .btn-group{
-        display:inline;
-    }
 }

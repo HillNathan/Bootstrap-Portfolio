@@ -14,22 +14,22 @@
 </head>
 <body>
 <!-- Header goes above the container -->
-<header>
+<header class="header-bar">
 
     <div class="header-container">
-        <div class="myname">Nathan Hill</div>
-
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary">
-                <a href="index.html" class="nav_menu" >About</a>
+        <nav class="navbar navbar-sticky navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><span class="myname">Nathan Hill</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <button type="button" class="btn btn-secondary">
-                <a href="portfolio.html" class="nav_menu">Portfolio</a>
-            </button>
-            <button type="button" class="btn btn-secondary">
-                <a href="contact.html" class="nav_menu">Contact</a>
-            </button>
-        </div>
+            <div class="collapse navbar-collapse nav_buttons justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#"><button class="nav-button p-2">About Me</button></a>
+                <a class="nav-item nav-link" href="#"><button class="nav-button p-2">Portfolio</button></a>
+                <a class="nav-item nav-link" href="#"><button class="nav-button p-2">Contact</button></a>
+              </div>
+            </div>
+          </nav>
     </div>
 </header>
 
