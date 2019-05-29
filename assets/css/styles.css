@@ -37,7 +37,14 @@ body {
 }
 
 h2, h4 {
-font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    opacity: 1;
+}
+
+.portfolio-caption {
+    background-color: #01395e;
+    opacity: .6;
+    /* width: 100%; */
 }
 
 .nav-button {
@@ -72,4 +79,5 @@ footer {
     text-align: center;
     margin:0;
     border-top: solid 3px #01395e;
+    z-index: 20;
 }
